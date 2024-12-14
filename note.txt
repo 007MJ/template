@@ -1,0 +1,78 @@
+* login-page 
+    - titre "ft_trantranscendence"
+    - section du pong qui serai entre de tourner sur elle meme 
+    - tu aurai en bas la section de connection  
+        - les buttons du connection 
+            * email 
+            * password
+            * connection avec 42 
+            * connect 
+
+* home 
+    - titre = "ft_trantranscendence"
+    - logo of the ai game 
+    - section du pong qui serai entre de tourner sur elle meme
+    - la bar de navigation 
+        les buttons de navigation
+            * logout                            = redirct to the login-page 
+            * game                              = popup to  game-section
+            * profil                            = popup the profil-editing
+            * friends                           = sidebar   friends-menu 
+            * logo of notifaction can change    = show the  friends-notifaction
+
+
+() game-section
+    - titre "GAME"
+    - les buttons pour le type de game
+        * practice game  = redirct to the pratice-game
+        * invite friends = popup can invite a friens @email 
+        * tournois       =  tournois-buttons
+
+
+# practice-game 
+    - the game with ai 
+    - can quite the game - button
+
+() tournois-button
+    - creation d'un tournois
+        - s'il y a personne avec ai 
+    - rejoindre un tournois 
+        - capaciter des personne qui son en tournois
+
+
+() profil-editing 
+    - afficher les information du jouer 
+        - name 
+        - username
+        - email 
+    - les statistique du jouer
+        - nombre de game qu'il a jouer 
+        - game gagner 
+        - gamer perdu 
+    - level 
+        montre le niveau du jouer 
+    - option de changer 
+        - name 
+        - user-name 
+        - logo profil 
+
+
+
+[] friends-menu 
+    titre  "Friends"
+    - afficher tout les amis 
+    - option de voirs les stastique entre lui et son ami 
+        - nombre de partie jouer 
+        - parti gagner 
+        - parti perdu 
+        - peux ajouter un amis * button 
+
+
+[] friends-notifaction 
+    - afficher les notifaction des amis 
+    - invitation amis 
+    - invitation de partie 
+
+    
+
+

@@ -1,36 +1,14 @@
-class GreetingMessage extends HTMLElement {
 
+class UserCard extends HTMLElement  {
     constructor () {
         super();
-
-        // console.log('constructed', this);
-
-        this.innerHTML = 
-            `<p>
-                <button> Hi there!</button>
-            <p>
-            <div classe="message" aria-live="polite"></div>`;
-        
+        this.attachShadow ({ mode: 'open'});
+        this.shadowRoot.appendChild(template.conent.cloneNOde)
+        this.innerHTML = `
+        <h1> ${this.getAttribute('name')}</h1>
+        `;
     }
-
-    connectedCallback() {
-        console.log('connected!', this);
-    }
-
-    disconnectedCallback(){
-        console.log('disconnected', this);
-    }
-
 }
 
-if ('customElements' in window) {
-    customElements.define('greeting-message', GreetingMessage);
-}
 
-// let greeting = document.querySelector('greeting-message');
-
-
-// document.body.append(greeting);
-
-
-// greeting.remove();
+window.customElements.define('user-card', UserCard);

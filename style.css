@@ -8,4 +8,25 @@
 
 .move-left {
     margin-left: 100px;
+
+}
+.fr {
+    background-color: blue;
+    padding: 5px;
+    border-radius: 15px 0px 0px;
+}
+
+.eng {
+    padding: 5px;
+    background-color: red;
+}
+
+.es {
+    padding: 5px;
+    background-color: gray;
+    border-radius:  0px 0px 15px;
+
+}
+a {
+    text-decoration: none;
 }
